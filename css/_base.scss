@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow: scroll;
+    height: 100%;
+}
+
+body {
+    background-position: center;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    font: $system-font;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+}
+
+h1 {
+    font-family: $system-font;
+}
+
+p {
+    font-family: $system-font;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {}
+
+/*div, section, header, aside, footer{outline:solid 1px #000;}Comment Out Before Final*/
+
+#cover {
+    background: #222 url(../images/trump.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    margin: auto;
+    width: 100%;
+}
+
+#down {
+    color: #ffffff;
+}
+
+.social-links {
+    line-height: 10px;
+}
+
+/*-----Layout-----*/
+
+#maincontainer {
+    background-color: #C0AA8C;
+    border: 3px solid #641D24;
+    width: 60%;
+    height: auto;
+    position: static;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#contactcontainer {
+    background-color: #C0AA8C;
+    border: 3px solid #641D24;
+    width: 60%;
+    height: auto;
+    position: static;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#output {
+    margin-top: 20px;
+    text-align: left;
+    padding: 15px;
+    background-color: #fff;
+    border: 3px solid #641D24;
+}
+
+span {
+    color: #941B26;
+    font-size: 1.02em;
+}
+
+header {}
+
+.nav-placeholder {
+    margin: 0 0 40px 0;
+}
+
+#maincontent {}
+
+#subcontent {}
+
+aside {}
+
+footer {
+    padding-top: 5px;
+    background-color: #C0AA8C;
+}
+
+
+/*-----Header-----*/
+
+header a:link, header a:visited {}
+
+header a:focus, header a:hover, header a:active {}
+
+
+/*-----Navigation-----*/
+
+nav ul {
+    height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a:link, nav ul li a:visited {}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {}
+
+
+/*-----Content-----*/
+
+section a:link, section a:visited {}
+
+section a:focus, section a:hover, section a:active {}
+
+section p {}
+
+
+/*-----Sidebar-----*/
+
+aside a:link, aside a:visited {}
+
+aside a:focus, aside a:hover, aside a:active {}
+
+
+/*-----Footer-----*/
+
+footer a:link, footer a:visited {
+    color: #29f431;
+}
+
+footer a:focus, footer a:hover, footer a:active {
+    color: #eb6f0b;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*left: 0;*/
+    background-color: tranparent;
+}
+
+.fixed .nav-inner {
+    width: 768px;
+}
+
+.fixed .nav-inner-most {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #baa4a7;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/* End hide from IE-mac */
+
+
+/* @end */

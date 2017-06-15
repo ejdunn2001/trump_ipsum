@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.gitignore",
+		"oF": 1
+		},
 	"\/css\/_animate.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2614,6 +2620,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/read.php",
+		"oF": 0
+		},
+	"\/sql\/trump_ipsum_2017-06-13.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sql\/trump_ipsum_2017-06-13.sql",
 		"oF": 0
 		},
 	"\/update.php": {
